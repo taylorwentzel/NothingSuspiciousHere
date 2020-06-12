@@ -1,0 +1,5 @@
+name: 'Send Post Rquest'
+description: 'Testing functionality'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
