@@ -1,5 +1,5 @@
-name: 'Send Post Rquest'
-description: 'Testing functionality'
+name: "Send Post Request"
+description: "Testing functionality"
 runs:
-  using: 'docker'
-  image: 'Dockerfile'
+  using: "docker"
+  image: "Dockerfile"
