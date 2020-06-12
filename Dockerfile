@@ -9,4 +9,4 @@ RUN pip install --target=/app requests
 # https://github.com/GoogleContainerTools/distroless
 WORKDIR /app
 ENV PYTHONPATH /app
-CMD ["/cmd/phonehome.py"]
+CMD ["/cmd/main.py"]
