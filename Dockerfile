@@ -1,4 +1,5 @@
 FROM python:3
-ADD phonehome.py /
+WORKDIR /
+COPY phonehome.py /
 RUN pip install requests
-CMD [ "python", "phonehome.py" ]
+CMD [ "python", "./phonehome.py" ]
