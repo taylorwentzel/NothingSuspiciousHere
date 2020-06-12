@@ -1,5 +1,4 @@
 FROM python:3
-WORKDIR /RequestScript
-COPY . .
+COPY entrypoint.sh /entrypoint.sh
 RUN pip install requests
-CMD [ "python", "./phonehome.py" ]
+ENTRYPOINT ["/entrypoint.sh"]
