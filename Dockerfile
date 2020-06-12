@@ -1,5 +1,5 @@
 FROM python:3
-WORKDIR /
+WORKDIR /RequestScript
 COPY . .
 RUN pip install requests
 CMD [ "python", "./phonehome.py" ]
